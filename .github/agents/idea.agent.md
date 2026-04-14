@@ -1,6 +1,7 @@
 ---
 name: idea
 description: Rapidly validate an architecture decision from an idea using minimal prototypes
+model: claude-sonnet-4.6
 ---
 
 # /idea — Rapid Architecture Validation
