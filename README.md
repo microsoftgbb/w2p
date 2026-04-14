@@ -4,11 +4,30 @@ W2P is a lightweight approach to validate architecture decisions quickly by buil
 
 It is used to reduce uncertainty, unblock customers, and generate reusable patterns.
 
-## When to use
+## Usage
 
-- architecture is unclear
-- multiple approaches exist
-- decision needs validation
+Run inside VS Code:
+
+```
+/idea <your idea>
+```
+
+Example:
+
+```
+/idea Autoscale GPU workloads in AKS based on real GPU utilization
+```
+
+---
+
+## What it does
+
+- frames architecture options
+- surfaces second-order effects
+- identifies risks and constraints
+- defines a minimal validation path
+
+---
 
 ## Flow
 
@@ -27,8 +46,9 @@ This approach is used to produce Pattern repositories and inform larger solution
 ## Notes
 
 - not a replacement for ADS
+- not a replacement for full architecture design
 - not production engineering
-- less documentation, more validation
+- designed to reduce decision time
 
 ## Example
 
