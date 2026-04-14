@@ -42,9 +42,7 @@ If the idea is clear:
 
 ## Step 2 — Generate Plan
 
-Load and follow:
-
-.github/prompts/idea.prompt.md
+Load and follow: #file:.github/prompts/idea.prompt.md
 
 ---
 
