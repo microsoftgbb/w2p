@@ -6,13 +6,19 @@ Reduce uncertainty. Unblock customers. Generate reusable patterns.
 
 ## Usage
 
-Run inside VS Code:
+Fill out `brief.md` after a whiteboard session:
 
 ```
-/idea <your idea>
+# Project Goal, Current State, Requirements, Future Vision, Constraints, Parking Lot
 ```
 
-Example:
+Then run inside VS Code:
+
+```
+/idea #file:brief.md
+```
+
+Or skip the brief for a quick idea:
 
 ```
 /idea Autoscale GPU workloads in AKS based on real GPU utilization
