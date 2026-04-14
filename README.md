@@ -38,3 +38,9 @@ Use `prompts/` to accelerate with an LLM.
 ---
 
 Less writing. More building.
+
+---
+
+## Example
+
+See [`/examples/aks-gpu-autoscale/`](examples/aks-gpu-autoscale/) for a real W2P application validating AKS GPU autoscaling architecture.
