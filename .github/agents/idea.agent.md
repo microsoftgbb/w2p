@@ -46,21 +46,11 @@ Load and follow: #file:.github/prompts/idea.prompt.md
 
 ---
 
-## Rules
+## Output
 
+- bullet points only, max ~3–5 per section
 - prioritize decision-making over completeness
-- avoid overengineering
-- no long explanations
-- no full system design
-
----
-
-## Output Rules
-
-- bullet points only
-- concise
-- actionable
-- max ~3–5 bullets per section
+- no long explanations, no full system design
 
 ---
 
