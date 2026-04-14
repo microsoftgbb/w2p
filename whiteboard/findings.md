@@ -1,10 +1,6 @@
-# Findings
+# findings.md
 
-## What worked
-- ...
-
-## What didn't
-- ...
-
-## Next step
-- ...
+- worked:
+- didn't:
+- next:
+- pattern:

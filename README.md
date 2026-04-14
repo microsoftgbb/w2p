@@ -1,46 +1,35 @@
-# W2P — Whiteboard to Prototype
+# Whiteboard to Rapid Prototype (W2P)
 
-Go from idea to working prototype. Fast.
+W2P is a lightweight approach to validate architecture decisions quickly by building minimal working prototypes.
 
-```
-idea → hypothesis → scope → build → learn
-```
+It is used to reduce uncertainty, unblock customers, and generate reusable patterns.
 
-No docs. No planning decks. Just structured thinking and code.
+## When to use
 
----
+- architecture is unclear
+- multiple approaches exist
+- decision needs validation
 
-## How to use
+## Flow
 
-1. Fill in `whiteboard/idea.md` — what's the problem?
-2. Pick an approach in `whiteboard/hypothesis.md`
-3. Lock scope in `whiteboard/scope.md` — this is the most important step
-4. Sketch the shape in `whiteboard/architecture.md`
-5. Run experiments. Log everything in `whiteboard/log.md`
-6. Write up `whiteboard/findings.md` when done
+Whiteboard → W2P → Pattern → Accelerator → Full Solution
 
-Use `prompts/` to accelerate with an LLM.
+## Output
 
----
+- working prototype
+- validated decision
+- candidate pattern
 
-## Example
+## Context
 
-**Idea:** Latency spikes in our API at p99. Root cause unknown.
+This approach is used to produce Pattern repositories and inform larger solution accelerators such as Project Stormbreaker.
 
-**Hypothesis:** DB connection pool exhaustion under bursty load.
+## Notes
 
-**Scope:** Prove pool exhaustion happens. Not: fix it, not: rewrite the pool.
-
-**Experiment:** Simulate 200 concurrent requests, monitor pool metrics.
-
-**Finding:** Pool maxes at 10 connections. Queue backs up. Confirmed.
-
----
-
-Less writing. More building.
-
----
+- not a replacement for ADS
+- not production engineering
+- less documentation, more validation
 
 ## Example
 
-See [`/examples/aks-gpu-autoscale/`](examples/aks-gpu-autoscale/) for a real W2P application validating AKS GPU autoscaling architecture.
+See `/examples/aks-gpu-autoscale/` for a real W2P application validating AKS autoscaling architecture.

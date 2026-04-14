@@ -1,14 +1,5 @@
-# Hypothesis
+# hypothesis.md
 
-## Possible approaches
-1. ...
-2. ...
-3. ...
-
-## Chosen approach
-<!-- Pick one -->
-...
-
-## Why
-<!-- 1–2 lines max -->
-...
+- options:
+- chosen:
+- why:

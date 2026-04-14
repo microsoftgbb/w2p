@@ -1,14 +1,8 @@
-# Architecture
-
-## Diagram
+# architecture.md
 
 ```mermaid
 graph LR
-    A[Input] --> B[Component]
-    B --> C[Output]
+    A[Component] --> B[Component]
 ```
 
-## Components
-| Component | Role |
-|-----------|------|
-| ... | ... |
+- components:

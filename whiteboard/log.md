@@ -1,7 +1,3 @@
-# Log
+# log.md
 
-<!-- Short entries. Date + what happened. No essays. -->
-
-## YYYY-MM-DD
-- ...
-
+- YYYY-MM-DD:
